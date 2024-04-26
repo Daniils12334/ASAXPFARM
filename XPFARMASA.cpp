@@ -36,11 +36,11 @@ void clickThread(std::atomic<bool>& running) {
     while (running) {
         //YOU CAN CHANGE CORDS FOR PERSONAL YOU MONITOR RESOLUTION will fed you in first hotbar slot
         clickAt(680, 1000); 
-        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
         pressKey('E');
         //YOU CAN CHANGE CORDS FOR PERSONAL YOU MONITOR RESOLUTION will drin water in second hotbar slot
         clickAt(720, 1000);
-        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
         pressKey('E');
         std::this_thread::sleep_for(std::chrono::minutes(30));
     }
