@@ -20,8 +20,8 @@ drop all cosmetics, that will clear folder icon
 all good
 ![Снимок экрана 2024-04-26 231202](https://github.com/Daniils12334/ARKDYNAMITEAUTOCLICK/assets/150222525/94134e1d-c863-4663-9ebd-3e5e88dd86a8)
 
-set in settigs
+add food and water in 1 and 2 slot
 ![Снимок экрана 2024-04-26 231209](https://github.com/Daniils12334/ARKDYNAMITEAUTOCLICK/assets/150222525/38d791fa-ca0f-4e45-b779-866737ef7ea5)
 
-add food and water in 1 and 2 slot
+set in settigs
 ![Снимок экрана 2024-04-26 231230](https://github.com/Daniils12334/ARKDYNAMITEAUTOCLICK/assets/150222525/cf454ecb-2e9b-4a37-b211-201ee550c569)
