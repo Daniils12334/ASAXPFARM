@@ -31,12 +31,14 @@ void pressKey(BYTE keyCode) {
 
     keybd_event(keyCode, 0, KEYEVENTF_KEYUP, 0);
 }
-
+//Will fed and give water
 void clickThread(std::atomic<bool>& running) {
     while (running) {
-        clickAt(680, 1000);
+        //YOU CAN CHANGE CORDS FOR PERSONAL YOU MONITOR RESOLUTION will fed you in first hotbar slot
+        clickAt(680, 1000); 
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         pressKey('E');
+        //YOU CAN CHANGE CORDS FOR PERSONAL YOU MONITOR RESOLUTION will drin water in second hotbar slot
         clickAt(720, 1000);
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         pressKey('E');
@@ -52,7 +54,7 @@ int main() {
         std::this_thread::sleep_for(std::chrono::seconds(5));
 
         for (int i = 0; i < 2; ++i) {
-            //CRAFT CORDS
+            //CRAFT CORDS YOU CAN CHANGE CORDS FOR PERSONAL YOU MONITOR RESOLUTION
             clickAt(245, 245);
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
         }
@@ -65,19 +67,19 @@ int main() {
         std::this_thread::sleep_for(std::chrono::seconds(5));
 
         for (int i = 0; i < 2; ++i) {
-            //OPEN COSMETICS
+            //OPEN COSMETICS YOU CAN CHANGE CORDS FOR PERSONAL YOU MONITOR RESOLUTION
             clickAt(443, 150);
             std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         }
 
         for (int i = 0; i < 2; ++i) {
-            //drop all cords
+            //drop all cords YOU CAN CHANGE CORDS FOR PERSONAL YOU MONITOR RESOLUTION
             clickAt(443, 200);
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
         }
 
         for (int i = 0; i < 2; ++i) {
-            //OPEN CRAFT
+            //OPEN CRAFT YOU CAN CHANGE CORDS FOR PERSONAL YOU MONITOR RESOLUTION
             clickAt(650, 150);
             std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         }
@@ -87,7 +89,7 @@ int main() {
         }
     }
 
-    // Join the clicker thread
+    //will fed you
     if (clickerThread.joinable()) {
         clickerThread.join();
     }
