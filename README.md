@@ -1,10 +1,10 @@
 # XPFARMASA
-15 million xp per night in solo, with friends can be much more
-Requires BOB tall tales
-This app will craft dynamite skin in ARK ACSENDED which gives 250xp per 1. 
-RECCOMENDED: Use mindwipe and earn 1100 craftskill
-             Leave computer for 10 hours
-             Screen resolution 1080
+##15 million xp per night in solo, with friends can be much more
+##Requires BOB tall tales
+##This app will craft dynamite skin in ARK ACSENDED which gives 250xp per 1. 
+##RECCOMENDED: Use mindwipe and earn 1100 craftskill
+             ##Leave computer for 10 hours
+             ##Screen resolution 1080
 
 
 
