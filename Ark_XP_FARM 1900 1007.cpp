@@ -30,7 +30,7 @@ void pressKey(BYTE keyCode) {
     keybd_event(keyCode, 0, KEYEVENTF_KEYUP, 0);
 }
 
-// Функция для крафта динамита
+// Macros для крафта динамита
 void craftDynamite() {
 
     this_thread::sleep_for(chrono::seconds(4));
@@ -84,7 +84,7 @@ void craftDynamite() {
     this_thread::sleep_for(chrono::seconds(1));
 }
 
-// Функция для потребления еды и воды
+// Macros для потребления еды и воды
 void consumeFoodAndWater() {
 
     cout << "Consuming food and water..." << endl;
@@ -156,7 +156,7 @@ void consumeFoodAndWater() {
     this_thread::sleep_for(chrono::seconds(1)); 
 }
 
-// Функция для потребления супа
+// Macros для потребления супа
 void consumeSoup() {
     this_thread::sleep_for(chrono::seconds(4)); 
 
